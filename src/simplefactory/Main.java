@@ -7,10 +7,10 @@ public class Main {
         Animal animal;
         AnimalFactory animalFactory = new AnimalFactory();
         
-        animal = animalFactory.createInstance(new Caine());
+        animal = animalFactory.createInstance(new Dog());
         System.out.println(animal.toString());
         
-        animal = animalFactory.createInstance(new Pisica());
+        animal = animalFactory.createInstance(new Cat());
         System.out.println(animal.toString());
         
         animal = animalFactory.createInstance(new Hamster());

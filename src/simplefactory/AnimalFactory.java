@@ -1,14 +1,14 @@
 package simplefactory;
 
-import simplefactory.Caine;
+import simplefactory.Dog;
 
 public class AnimalFactory {
     
     public Animal createInstance(Animal animal) {
-        if (animal.getClass() == Caine.class) {
-            return new Caine();
-        } else if (animal.getClass() == Pisica.class) {
-            return new Pisica();
+        if (animal.getClass() == Dog.class) {
+            return new Dog();
+        } else if (animal.getClass() == Cat.class) {
+            return new Cat();
         } else if (animal.getClass() == Hamster.class) {
             return new Hamster();
         }

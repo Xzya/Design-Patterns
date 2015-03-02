@@ -4,17 +4,17 @@ package builder;
 public class Main {
 
     public static void main(String[] args) {
-        Caine caine1 = new CaineBuilder().nume("Azor")
-                .culoare("Maro")
-                .varsta(3)
+        Dog caine1 = new DogBuilder().name("Azor")
+                .color("Maro")
+                .age(3)
                 .build();
         System.out.println(caine1.toString());
         
-        Caine caine2 = new CaineBuilder().nume("Max")
-                .culoare("Alb")
-                .varsta(5)
-                .greutate(3)
-                .inaltime(25)
+        Dog caine2 = new DogBuilder().name("Max")
+                .color("Alb")
+                .age(5)
+                .weight(3)
+                .height(25)
                 .build();
         System.out.println(caine2.toString());
 

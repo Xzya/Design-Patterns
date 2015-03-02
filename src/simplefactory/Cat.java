@@ -1,7 +1,7 @@
 package simplefactory;
 
 
-public class Hamster implements Animal {
+public class Cat implements Animal {
 
     @Override
     public String toString() {

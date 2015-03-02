@@ -1,11 +1,11 @@
 package factorymethod;
 
 
-public class CaineCreator implements IAnimalCreator {
+public class DogCreator implements IAnimalCreator {
 
     @Override
     public IAnimal createObject() {
-        return new Caine();
+        return new Dog();
     }
 
 }
