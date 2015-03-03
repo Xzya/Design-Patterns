@@ -1,10 +1,10 @@
 package command;
 
-public class TurnOn implements Command {
+public class TurnOn implements ICommand {
 
-    ElectronicDevice theDevice;
+    IElectronicDevice theDevice;
 
-    public TurnOn(ElectronicDevice _theDevice) {
+    public TurnOn(IElectronicDevice _theDevice) {
         theDevice = _theDevice;
     }
 

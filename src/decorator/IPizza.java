@@ -1,6 +1,6 @@
 package decorator;
 
-public interface Pizza {
+public interface IPizza {
     
     public String getDescription();
     

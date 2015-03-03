@@ -2,9 +2,9 @@ package command;
 
 public class DeviceButton {
 
-    Command theCommand;
+    ICommand theCommand;
 
-    public DeviceButton(Command _newCommand) {
+    public DeviceButton(ICommand _newCommand) {
         theCommand = _newCommand;
     }
 

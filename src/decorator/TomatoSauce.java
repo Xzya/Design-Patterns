@@ -3,7 +3,7 @@ package decorator;
 
 public class TomatoSauce extends ToppingDecorator {
 
-    public TomatoSauce(Pizza newPizza) {
+    public TomatoSauce(IPizza newPizza) {
         super(newPizza);
         
         System.out.println("Adding Sauce");

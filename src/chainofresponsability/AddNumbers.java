@@ -1,11 +1,11 @@
 package chainofresponsability;
 
-public class AddNumbers implements Chain {
+public class AddNumbers implements IChain {
 
-    private Chain nextInChain;
+    private IChain nextInChain;
 
     @Override
-    public void setNextChain(Chain nextChain) {
+    public void setNextChain(IChain nextChain) {
         this.nextInChain = nextChain;
     }
 

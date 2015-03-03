@@ -3,10 +3,10 @@ package chainofresponsability;
 public class TestCalcChain {
 
     public static void main(String[] args) {
-        Chain chainCalc1 = new AddNumbers();
-        Chain chainCalc2 = new SubtractNumbers();
-        Chain chainCalc3 = new MultiplyNumbers();
-        Chain chainCalc4 = new DivideNumbers();
+        IChain chainCalc1 = new AddNumbers();
+        IChain chainCalc2 = new SubtractNumbers();
+        IChain chainCalc3 = new MultiplyNumbers();
+        IChain chainCalc4 = new DivideNumbers();
 
         chainCalc1.setNextChain(chainCalc2);
         chainCalc2.setNextChain(chainCalc3);

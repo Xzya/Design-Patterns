@@ -10,9 +10,9 @@ package chainofresponsability;
  *
  */
 
-public interface Chain {
+public interface IChain {
 
-    public void setNextChain(Chain nextChain);
+    public void setNextChain(IChain nextChain);
 
     public void calculate(Numbers request);
 

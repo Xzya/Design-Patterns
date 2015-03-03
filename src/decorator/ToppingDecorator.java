@@ -1,10 +1,10 @@
 package decorator;
 
-abstract class ToppingDecorator implements Pizza {
+abstract class ToppingDecorator implements IPizza {
 
-    protected Pizza tempPizza;
+    protected IPizza tempPizza;
     
-    public ToppingDecorator(Pizza newPizza) {
+    public ToppingDecorator(IPizza newPizza) {
         tempPizza = newPizza;
     }
     

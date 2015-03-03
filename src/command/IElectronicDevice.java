@@ -1,13 +1,13 @@
 package command;
 
-public interface ElectronicDevice {
+public interface IElectronicDevice {
 
     public void on();
     public void off();
     public void volumeUp();
     public void volumeDown();
 
-    public String isOn();
+    public boolean isOn();
     public int getVolume();
 
 }

@@ -1,11 +1,11 @@
 package chainofresponsability;
 
-public class MultiplyNumbers implements Chain {
+public class MultiplyNumbers implements IChain {
 
-    private Chain nextInChain;
+    private IChain nextInChain;
 
     @Override
-    public void setNextChain(Chain nextChain) {
+    public void setNextChain(IChain nextChain) {
         this.nextInChain = nextChain;
     }
 

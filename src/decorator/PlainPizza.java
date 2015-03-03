@@ -1,6 +1,6 @@
 package decorator;
 
-public class PlainPizza implements Pizza {
+public class PlainPizza implements IPizza {
 
     @Override
     public String getDescription() {

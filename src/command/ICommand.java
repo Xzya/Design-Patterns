@@ -1,6 +1,6 @@
 package command;
 
-public interface Command {
+public interface ICommand {
 
     public void execute();
 

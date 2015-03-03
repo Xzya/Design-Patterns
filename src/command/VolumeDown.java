@@ -1,10 +1,10 @@
 package command;
 
-public class VolumeDown implements Command{
+public class VolumeDown implements ICommand{
 
-    ElectronicDevice theDevice;
+    IElectronicDevice theDevice;
 
-    public VolumeDown(ElectronicDevice _theDevice) {
+    public VolumeDown(IElectronicDevice _theDevice) {
         theDevice = _theDevice;
     }
 

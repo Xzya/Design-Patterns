@@ -1,14 +1,14 @@
 package command;
 
-public class Radio implements ElectronicDevice {
+public class Radio implements IElectronicDevice {
 
     private boolean isOn = false;
     private int volume = 0;
     private final int minVolume = 0;
     private final int maxVolume = 10;
 
-    public String isOn() {
-        return isOn ? "On" : "Off";
+    public boolean isOn() {
+        return isOn;
     }
     
     public int getVolume() {

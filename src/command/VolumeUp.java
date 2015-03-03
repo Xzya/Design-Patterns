@@ -1,10 +1,10 @@
 package command;
 
-public class VolumeUp implements Command {
+public class VolumeUp implements ICommand {
 
-    ElectronicDevice theDevice;
+    IElectronicDevice theDevice;
 
-    public VolumeUp(ElectronicDevice _theDevice) {
+    public VolumeUp(IElectronicDevice _theDevice) {
         theDevice = _theDevice;
     }
 

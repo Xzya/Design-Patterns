@@ -1,6 +1,6 @@
 package command;
 
-public class Television implements ElectronicDevice {
+public class Television implements IElectronicDevice {
 
     private boolean isOn = false;
     private int volume = 0;
@@ -8,8 +8,8 @@ public class Television implements ElectronicDevice {
     private final int maxVolume = 10;
 
     @Override
-    public String isOn() {
-        return isOn ? "On" : "Off";
+    public boolean isOn() {
+        return isOn;
     }
 
     @Override

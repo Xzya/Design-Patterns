@@ -2,14 +2,14 @@ package command;
 
 public class Remote {
 
-    private ElectronicDevice theDevice;
+    private IElectronicDevice theDevice;
 
     public DeviceButton turnOn;
     public DeviceButton turnOff;
     public DeviceButton volumeUp;
     public DeviceButton volumeDown;
 
-    public Remote(ElectronicDevice _theDevice) {
+    public Remote(IElectronicDevice _theDevice) {
         theDevice = _theDevice;
 
         turnOn = new DeviceButton(new TurnOn(theDevice));
